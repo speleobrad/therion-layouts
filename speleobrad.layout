@@ -9,9 +9,8 @@
 
 layout my_layout
   scale 1 200
-  #origin 13 22 0 m
-  #origin-label 100 K
-  exclude-pages on 1,2,5
+  origin 13 22 0 m
+  origin-label 100 K
   color map-bg 85
   transparency on
   opacity 90
@@ -19,9 +18,9 @@ layout my_layout
   statistics topo-length on
   statistics explo-length on
   legend on
-  #map-header 8 50 e
+  map-header 8 50 e
   layers off
   symbol-assign point station:temporary SKBB
-  grid bottom
-  grid-size 10 10 10 m
+  # grid bottom
+  # grid-size 10 10 10 m
 endlayout
