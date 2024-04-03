@@ -7,20 +7,23 @@
 
 
 
-layout my_layout
+layout speleobrad
   scale 1 200
-  origin 13 22 0 m
-  origin-label 100 K
-  color map-bg 85
+  unit metric
+  symbol-set UIS
+  overlap 1.5 cm
   transparency on
   opacity 90
-  language en
-  statistics topo-length on
-  statistics explo-length on
-  legend on
-  map-header 8 50 e
-  layers off
-  symbol-assign point station:temporary SKBB
   # grid bottom
   # grid-size 10 10 10 m
+  map-header 10 10 e
+  map-image 90 10 e logo.pdf
+  legend on
+  statistics topo-length on
+  statistics explo-length on
+  language en
+  scale-bar 25 m
+  color-model rgb
+  color map-bg 85
+  doc-author Speleobrad <speleobrad@gmail.com>
 endlayout
