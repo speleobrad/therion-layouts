@@ -17,7 +17,7 @@ layout speleobrad
   # grid bottom
   # grid-size 10 10 10 m
   map-header 10 10 e
-  map-image 90 10 e logo.pdf
+  map-image 90 10 e logo.jpeg
   legend on
   statistics topo-length on
   statistics explo-length on
