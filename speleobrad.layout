@@ -24,6 +24,5 @@ layout speleobrad
   language en
   scale-bar 25 m
   color-model rgb
-  color map-bg 85
   doc-author "Speleobrad <speleobrad@gmail.com>"
 endlayout
