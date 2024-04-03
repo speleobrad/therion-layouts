@@ -9,7 +9,7 @@
 
 layout speleobrad
   scale 1 200
-  unit metric
+  units metric
   symbol-set UIS
   overlap 1.5 cm
   transparency on
